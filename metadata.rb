@@ -10,6 +10,6 @@ version          '1.0.1'
 supports         'ubuntu'
 supports         'windows'
 
-depends          'java', '~> 1.17'
+depends          'java', '<= 6.0.0'
 depends          'ark'
 depends          'compat_resource' # For custom resource compilation on chef-client versions < 12.5
